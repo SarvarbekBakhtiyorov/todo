@@ -75,7 +75,7 @@ class _TodoAppState extends State<TodoApp> {
                 width: 32,
               ),
               itemBuilder: (context, index) {
-                return InkWell(
+                return GestureDetector(
                   onTap: () {
                     setState(() {
                       print(index);
